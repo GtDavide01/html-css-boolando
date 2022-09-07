@@ -62,6 +62,7 @@ header{
     width: 100px;
 }
 /* Main */
+
 .row{
     flex-wrap: wrap;
     width: 100%;
@@ -115,4 +116,39 @@ header{
 #nodiscount{
     position: absolute;
     left: 0;
+}
+img.hover-img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.card:hover img{
+    opacity: 0;
+}
+.card:hover img.hover-img{
+    opacity: 1;
+}
+
+/* Footer */
+footer{
+    margin-top: 100px;
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+.info{
+    flex-grow: 2;
+}
+.info h3{
+    color: white;
+}
+.social{
+    color: white;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.social i{
+    font-size: 2em;
+    margin-left: 10px;
 }
