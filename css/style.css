@@ -86,3 +86,33 @@ header{
 .hearth:hover{
     color: red;
 }
+.discount{
+    text-align: center;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left : 0; 
+    bottom: 130px;
+    min-height: 30px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+}
+.sostenibilita{
+    text-align: center;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left : 90px; 
+    bottom: 130px;
+    min-height: 30px;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+}
+#nodiscount{
+    position: absolute;
+    left: 0;
+}
