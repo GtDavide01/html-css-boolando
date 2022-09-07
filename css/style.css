@@ -10,7 +10,7 @@ html{
 /* Utilitys */
 .container{
     margin: 0 auto;
-    width: 80%;
+    max-width: 80%;
 }
 img{
     width: 100%;
