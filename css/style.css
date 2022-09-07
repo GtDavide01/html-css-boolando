@@ -4,7 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+html{
+    font-family: 'Roboto' , sans-serif;
+}
 /* Utilitys */
 .container{
     margin: 0 auto;
@@ -23,6 +25,13 @@ ul{
 }
 li{
     margin-right: 10px;
+}
+.price{
+    color: red;
+    font-weight: bold;
+}
+.old-price{
+    text-decoration: line-through;
 }
 /* Header */
 header{
@@ -52,7 +61,6 @@ header{
     height: 20px;
     width: 100px;
 }
-
 /* Main */
 .row{
     flex-wrap: wrap;
